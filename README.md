@@ -6,7 +6,6 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -28,7 +27,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 Portfolio: add a contact form and finish the mobile version <a name="about-project"></a>
 
@@ -57,11 +55,8 @@ The various stacks used for the project includes the following
 <summary>Linters</summary>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> 
 
 - **Learn how to translate a Figma design into a functional UI.**
 - **Utilize Flexbox to position various elements on a web page.**
@@ -72,8 +67,6 @@ The various stacks used for the project includes the following
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> 
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -83,19 +76,11 @@ In order to run this project you need:
 
 on MAC:
 
-```sh
- brew install git
-```
 
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-```sh
-  cd my-folder
-  git clone github.com/yemidada/micro_hello_microverse.git
-```
 
 ### Install
 
@@ -104,56 +89,28 @@ Install this project with:
 
 Example command:
 
-```sh
-  cd micro_hello_microverse
-  npm install
-```
 
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author**
 
@@ -164,7 +121,6 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -174,7 +130,6 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -184,7 +139,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -192,7 +146,6 @@ If you like this project you can support us  by sharing our code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -201,7 +154,6 @@ If you like this project you can support us  by sharing our code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
@@ -216,7 +168,6 @@ If you like this project you can support us  by sharing our code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
