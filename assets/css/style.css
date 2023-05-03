@@ -72,16 +72,16 @@ nav {
 
 .logo_link {
   font-style: normal;
-  color: rgba(96, 112, 255, 1);
+  color: rgb(96, 112, 255);
 }
 
 .logo_link:hover {
-  color: rgba(9, 30, 66, 1);
+  color: rgb(34, 48, 210);
 }
 
 .button {
   padding: 12px;
-  background-color: rgba(64, 83, 252, 1);
+  background-color: rgb(64, 83, 252);
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
   display: inline-flex;
@@ -101,7 +101,7 @@ nav {
   border-radius: 8px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(96, 112, 255, 1);
+  border-color: rgb(127, 140, 255);
   display: inline-flex;
   flex-direction: row;
   align-items: center;
@@ -111,14 +111,14 @@ nav {
   letter-spacing: 0.51px;
   line-height: 24px;
   text-align: center;
-  color: rgba(56.53, 109, 242.25, 1);
+  color: rgb(96, 112, 255);
   background: #fff;
 }
 
 .button-outline:hover {
-  background-color: rgba(64, 83, 252, 1);
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  background-color: rgb(34, 48, 210);
   color: white;
+  border-color: none;
 }
 
 /*
@@ -130,7 +130,7 @@ nav {
   padding-right: 12px;
   padding-top: 4px;
   padding-bottom: 4px;
-  background-color: rgba(235, 235, 255, 1);
+  background-color: rgb(235, 235, 255);
   border-radius: 8px;
   border: none;
   display: inline-flex;
@@ -141,7 +141,7 @@ nav {
   font-weight: 500;
   letter-spacing: 0.36px;
   line-height: 16px;
-  color: rgba(96, 112, 255, 1);
+  color: rgb(96, 112, 255);
 }
 
 /* Menu Style */
@@ -163,7 +163,7 @@ nav {
 }
 
 .mobile-menu:hover {
-  color: rgba(9, 30, 66, 1);
+  color: rgb(34, 48, 210);
 }
 
 .item {
@@ -199,7 +199,7 @@ nav {
 }
 
 .heading__title {
-  color: rgba(9, 30, 66, 1);
+  color: rgb(9, 30, 66);
   margin-bottom: 12px;
 }
 
@@ -211,7 +211,7 @@ nav {
 
 .heading__connect {
   font-weight: 500;
-  color: rgba(127, 140, 255, 1);
+  color: rgb(127, 140, 255);
   margin-top: 14px;
   margin-bottom: 14px;
 }
@@ -234,7 +234,7 @@ nav {
   grid-template-columns: auto auto;
   background-color: #fff;
   border-radius: 24px;
-  border: solid 1px rgba(223, 225, 230, 1);
+  border: solid 1px rgb(223, 225, 230);
   align-content: flex-start;
 }
 
@@ -248,7 +248,7 @@ nav {
 }
 
 .content .desc {
-  color: rgba(52, 69, 99, 1);
+  color: rgb(52, 69, 99);
   margin-bottom: 24px;
   font-style: normal;
   font-weight: 400;
@@ -266,12 +266,12 @@ nav {
   display: inline-block;
   width: 8px;
   height: 8px;
-  background-color: rgba(193, 199, 208, 1);
+  background-color: rgb(193, 199, 208);
   border-radius: 9999px;
 }
 
 .content .summary .color {
-  color: rgba(107, 119, 140, 1);
+  color: rgb(107, 119, 140);
 }
 
 .content .tagging {
@@ -315,7 +315,7 @@ nav {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  color: rgba(52, 69, 99, 1);
+  color: rgb(52, 69, 99);
 }
 
 /*
@@ -325,11 +325,11 @@ nav {
 .footer::before {
   content: "";
   position: absolute;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   top: 0;
-  left: 0;
+  right: -25%;
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -340,7 +340,7 @@ nav {
   position: relative;
   border-top-left-radius: 5rem;
   z-index: 10;
-  background-color: rgba(96, 112, 255, 1);
+  background-color: rgb(96, 112, 255);
   justify-content: center;
   align-items: center;
 }
@@ -358,7 +358,7 @@ nav {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: rgba(235, 235, 255, 1);
+  color: rgb(235, 235, 255);
   margin-bottom: 20px;
 }
 
@@ -375,6 +375,11 @@ textarea {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+  color: rgb(23, 43, 77);
+}
+
+::placeholder {
+  color: rgb(179, 186, 197);
 }
 
 /* Mobile */
@@ -476,11 +481,11 @@ textarea {
     footer styles
   */
   .footer::before {
-    background-image: url("../images/footer_desktop.svg");
+    background-image: url("../images/footer_mobile.svg");
   }
 
   .footer {
-    padding: 3rem 0 3rem 0;
+    padding: 102px 12px 48px 24px;
   }
 
   .footer .desc {
@@ -489,6 +494,7 @@ textarea {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    padding-bottom: 32px;
   }
 
   .footer form {
