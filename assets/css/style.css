@@ -365,8 +365,10 @@ nav {
 input,
 textarea {
   padding: 15px;
-  margin: 8px;
-  border: none;
+  margin: 9px 0;
+  background: #FFFFFF;
+  border: 1px solid rgb(207, 216, 220);
+  border-radius: 8px;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -376,6 +378,10 @@ textarea {
 
 ::placeholder {
   color: rgb(179, 186, 197);
+}
+
+.footer .contact-button {
+  padding-top: 12px;
 }
 
 /* Mobile */
@@ -647,6 +653,7 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0;
   }
 
   input,
