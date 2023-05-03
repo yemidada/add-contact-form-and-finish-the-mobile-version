@@ -117,8 +117,8 @@ nav {
 
 .button-outline:hover {
   background-color: rgb(34, 48, 210);
+  border-color: rgb(34, 48, 210);
   color: white;
-  border-color: none;
 }
 
 /*
