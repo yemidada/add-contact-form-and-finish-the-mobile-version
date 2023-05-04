@@ -149,7 +149,7 @@ If you like this project you can support us  by sharing our code
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Thanks you for checking out my repository
+Thanks you for checking out my repository
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
